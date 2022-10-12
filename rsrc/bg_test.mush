@@ -1,0 +1,7 @@
+10 sleep 10 &
+15 echo line 15
+20 sleep 5 &
+25 echo line 25
+30 sleep 3 &
+35 echo line 35
+run

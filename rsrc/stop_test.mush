@@ -1,0 +1,4 @@
+10 echo line 10
+20 stop
+30 echo line 30
+run

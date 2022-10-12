@@ -1,0 +1,8 @@
+10 set x = 1
+20 echo #x
+25 sleep 1
+30 set x = !#x
+35 echo #x
+40 sleep 1
+50 goto 10
+run

@@ -1,0 +1,4 @@
+10 echo hello 
+20 sleep 1
+30 goto 10
+run

@@ -1,0 +1,4 @@
+10 goto 30
+20 stop
+30 echo yes
+run

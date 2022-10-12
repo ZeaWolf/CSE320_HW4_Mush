@@ -1,0 +1,7 @@
+10 echo line 10
+20 echo line 20
+30 echo line 30
+40 echo line 40
+50 echo line 50
+delete 10,25
+list

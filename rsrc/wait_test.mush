@@ -1,0 +1,19 @@
+10 sleep 10 &
+11 set j10 = #JOB
+12 echo j10 #j10
+15 echo line 15
+20 sleep 5 &
+21 set j20 = #JOB
+22 echo j20 #j20
+25 echo line 25
+30 sleep 3 &
+31 set j30 = #JOB
+32 echo j30 #j30
+35 echo line 35
+40 wait #j30
+45 echo j30 #STATUS
+50 wait #j20
+55 echo j20 #STATUS
+60 wait #j10
+65 echo j10 #STATUS
+run

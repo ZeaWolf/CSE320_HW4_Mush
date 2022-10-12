@@ -1,0 +1,6 @@
+10 sleep 10 &
+15 set j10 = #JOB
+20 sleep 2
+30 cancel #j10
+40 wait #j10
+run
